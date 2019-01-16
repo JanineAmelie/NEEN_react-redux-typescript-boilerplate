@@ -1,13 +1,13 @@
-import Hello from '../components/Hello';
 import * as actions from '../actions/enthusiasm-actions';
-import { IEnthusiasmState } from "../types/index";
-import { connect } from "react-redux";
-import { Dispatch } from "redux";
+import { IEnthusiasmState } from '../types/index';
+import { connect } from 'react-redux';
+import { Dispatch } from 'redux';
+import Hello from 'src/components/Hello';
 
 // state, ownProps
 export function mapStateToProps(state: { EnthusiasmReducer: IEnthusiasmState }) {
-      const { enthusiasmLevel, languageName } = state.EnthusiasmReducer;
-      return { enthusiasmLevel, name: languageName };
+  const { enthusiasmLevel, languageName } = state.EnthusiasmReducer;
+  return { enthusiasmLevel, name: languageName };
 }
 
 export function mapDispatchToProps(dispatch: Dispatch<actions.EnthusiasmAction>) {

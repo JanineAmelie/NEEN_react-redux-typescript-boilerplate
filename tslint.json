@@ -1,6 +1,19 @@
 {
-"extends": [],
-"defaultSeverity": "warning",
+"extends": "tslint-config-airbnb",
+"rules": {
+  "max-line-length": [
+    true,
+    120
+  ],
+  "variable-name": [
+    true,
+    "ban-keywords",
+    "check-format",
+    "allow-pascal-case",
+    "allow-leading-underscore"
+  ],
+  "function-name": [false]
+},
 "linterOptions": {
   "exclude": [
     "config/**/*.js",
