@@ -12,6 +12,7 @@
     "allow-pascal-case",
     "allow-leading-underscore"
   ],
+  "import-name": [false],
   "function-name": [false]
 },
 "linterOptions": {
