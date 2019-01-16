@@ -4,6 +4,7 @@
   "private": false,
   "description": "Boilerplate starter project for react-redux development with typescript.",
   "author": "Neen <tamarind11@yahoo.com",
+  "repository": "janineLourens/react-redux-typescript-boilerplate",
   "keywords": [
     "boilerplate",
     "npm",
