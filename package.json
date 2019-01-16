@@ -1,7 +1,19 @@
 {
-  "name": "directory-app",
+  "name": "@derpanine/react-redux-typescript-boilerplate",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Boilerplate starter project for react-redux development with typescript.",
+  "author": "Neen <tamarind11@yahoo.com",
+  "keywords": [
+    "boilerplate",
+    "npm",
+    "typescript",
+    "react-redux",
+    "javascript",
+    "react",
+    "redux"
+  ],
+  "license": "MIT",
   "dependencies": {
     "@types/react-redux": "^7.0.0",
     "react": "^16.7.0",
